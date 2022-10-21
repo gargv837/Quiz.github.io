@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="streamStyle.css">
+</head>
+<body>
+    <div class="main-divStream">
+            <div id="decideStream" class="streamClass">
+                <h2 class="headingStream">Stream Selector</h2>
+                <h2 class="questionStream">Do you enjoy reading technical materials and solving technical problems?</h2>
+                <ul>
+                <li>
+                    <input type="radio" name="streamAnswer" id="ans1" class="streamAnswer">
+                    <label for="ans1" id="choice1">Yes</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="streamAnswer" id="ans2" class="streamAnswer">
+                    <label for="ans2" id="choice2">No</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="streamAnswer" id="ans3" class="streamAnswer">
+                    <label for="ans3" id="choice3">Not Sure</label>
+                </li>
+            </ul>
+        </div>
+            <button id="submit">Submit</button>
+            <div id="showScore" class="scoreArea"></div>
+            <!-- <div id="showStream" class="streamSelector"></div> -->
+        </div>
+    </div>
+    <script src="streamscript.js"></script>
+</body>
+</html>
